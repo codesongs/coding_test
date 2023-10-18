@@ -2,7 +2,6 @@ def solution(clothes):
     answer = 1
     dic = {}
     lst = []
-    case = 1
     for i in clothes:
         lst.append(i[1])
     for j in lst:
