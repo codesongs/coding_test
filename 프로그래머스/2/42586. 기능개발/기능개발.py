@@ -10,7 +10,7 @@ def solution(progresses, speeds):
             del progresses[0], speeds[0] # 작업 삭제
             i += 1
             
-        if i > 0:
+        if i > 0: # 삭제되지 않은 날에는 출력안함 (맨 앞의 speed를 더하는 작업부터 다시)
             answer.append(i)
     
     return answer
